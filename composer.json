@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/laravel-prompts",
+    "description": "Tyhp type definitions for laravel/prompts 0.3.24.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "0.3.24",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/laravel-prompts-impl": "~0.3.24.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/laravel-prompts-impl"
+        }
+    }
+}
